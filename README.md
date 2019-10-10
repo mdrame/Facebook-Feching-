@@ -1,9 +1,9 @@
 # SocialSite
 
 
-## personal webpage template
 
-### Dash Board
+
+#### Dash Board
 
 <img src="1.png">
 
@@ -11,14 +11,14 @@
 
 All you got to do is download repo and replace image, social links, and resume which is a .png.
 
-### Technology
+#### Technology
 
 * HTML
 * CSS
 * BootStrap
 * Google Online Font-Family
 
-### todo
+#### todo
 
 Done
 
