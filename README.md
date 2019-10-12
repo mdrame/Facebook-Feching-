@@ -20,5 +20,5 @@ All you got to do is download repo and replace image, social links, and resume w
 
 #### todo
 
-* post to hosting site / server.
+* post to hosting site / server. ✅
 
