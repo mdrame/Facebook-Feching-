@@ -9,7 +9,7 @@
 
 ### Usage
 
-All you got to do is download repo and replace image, social links, and resume which is a .png.
+All you got to do is download repo and replace image, social links, and resume which is a .png. also you can add a new social link by copy and pasting the social div
 
 #### Technology
 
