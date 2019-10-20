@@ -20,5 +20,8 @@ All you got to do is download repo and replace image, social links, and resume w
 
 #### todo
 
-* post to hosting site / server. ✅
+* post to hosting site / server. ✅ Done
+* Create individual project page to show more detail about project
+* give user uption to download resume
+* user can visit project from show more detail page.
 
