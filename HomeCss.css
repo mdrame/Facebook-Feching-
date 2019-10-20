@@ -1,41 +1,39 @@
+
 .row{
-text-align: center;
+	text-align: center;
 	margin-top: 50px;
 	height: auto;
+	
 }
 
 .resume {
-	width: 50%;
+	width: 40%;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+
 
 
 }
 
-.resume:hover {
-	width: 100%;
+
+
+.social{
+
+	width: 40%;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-
 
 }
-
-.col-xl-12 {
-	margin-top: 20px;
-}
-
+	
 
 .image{
 	width: 30%;
-
-
 }
 
-.image:hover{
+
+
+
+/* .image:hover{
 	box-shadow: 1px 1px 100px #cecece;
-}
+} */
 
 
 span{
@@ -56,8 +54,6 @@ span{
 }
 
 #h2{
-
-
 	color: white;
 	font-family: 'Rationale', sans-serif;
 	font-size: 200%;
@@ -70,21 +66,51 @@ span {
 	color: white;
 }
 
+
 p{
-	
 	font-family: 'Julius Sans One', sans-serif;
 	text-align: left;
 	padding: 2%;
 	box-shadow: 1px 1px 9px #edeae6;
-
 }
 
 
 /* applies when social icon are at the bottom of the page  */
 
-
-img{
-	width: 50px;
-	margin-top: 20%;
+#projectDev{
+	/* background: yellow; */
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	margin-top: 150px;
 }
+
+/* .project_link{
+	text-align: center;
+	display: inline;
+} */
+
+.products{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: red;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.products:hover{
+	transition: 0.5s;
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: red;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgb(49, 46, 46), 0 6px 20px 0 rgb(73, 68, 68);
+}
+
+
+
 
