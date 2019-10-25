@@ -25,3 +25,4 @@ All you got to do is download repo and replace image, social links, and resume w
 * give user uption to download resume
 * user can visit project from show more detail page.
 * And pls orgonize the file structure ( it's a mess )
+* re-build project with Django...
