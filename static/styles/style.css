@@ -17,13 +17,19 @@ body {
 }
 
 .logo-area img {
-    width: 160px;
+    width: 200px;
     margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 75px;
+ 
 }
 
 .logo-area {
     width: 30%;
+    height: 100px;
     float: left;
+    /* background:  yellow; */
+   
 }
 
 .login-area {
