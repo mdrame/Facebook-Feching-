@@ -1,19 +1,18 @@
-# DashBoard
+# Facebook Fetching 
 
-<img src="dashboard.png">
+<img src="https://media.giphy.com/media/LOL2LepHrkUVp1gz4t/giphy.gif">
 
+## Usage
+  
+  * git clone https://github.com/mdrame/hacking_with_clone
+  * Run python3 app,py
 
-### Usage
-
-* Coming ....
-
-#### Technology
+## Technology
 
 * HTML
 * CSS
-* BootStrap
-* Google Online Font-Family
 * Flask
+
 
 
 ### Disclaimer 
@@ -23,4 +22,5 @@
 
 #### Todo
 
-* Get it done for now
+
+* Add more functionality
