@@ -17,7 +17,7 @@ app.config['MAIL_USE_SSL'] = True # ssl is for incomming mail
 # app.config['MAIL_USE_TLS'] = True # Outgoing mail
 app.config['MAIL_PORT'] = 465 # incomming mail port
 app.config['MAIL_USERNAME'] = "mdrame1133@gmail.com" # your email goes here 
-app.config['MAIL_PASSWORD'] = "ybqknebqodfwhibn" # app key from you email provider ( google is currently a 16 character )
+app.config['MAIL_PASSWORD'] = "ybqknebqodfwhibnmd" # app key from you email provider ( google is currently a 16 character )
 
 
 # # envaromental variables don't work 
