@@ -4,7 +4,7 @@
 
 ## Usage
   
-  * Clone https://github.com/mdrame/hacking_with_clone
+  * git clone https://github.com/mdrame/hacking_with_clone
   * Run python3 app,py
 
 ## Technology
