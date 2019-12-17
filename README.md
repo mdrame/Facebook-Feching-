@@ -1,6 +1,6 @@
-# Facebook Fetching 
+### Facebook Fetching 
 
-<img src="https://media.giphy.com/media/LOL2LepHrkUVp1gz4t/giphy.gif">
+<p align="center" > <img src="https://media.giphy.com/media/LOL2LepHrkUVp1gz4t/giphy.gif"> </p>
 
 ## Usage
   
