@@ -7,7 +7,7 @@
   * git clone https://github.com/mdrame/hacking_with_clone
   * Change destination  email security  / Forwarding and POP/IMAP setting to enable IMAP 
   * Now add  desire email for  sender and recipients user credential
-  * Run python3 app,py
+  * Run python3 app.py
   
 
 ## Technology
